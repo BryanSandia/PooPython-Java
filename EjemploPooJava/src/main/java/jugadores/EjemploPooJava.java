@@ -11,6 +11,9 @@ public class EjemploPooJava {
         // Se llama automáticamente al imprimir el objeto
         System.out.println(p); 
         // Salida: Jugador{nombre='Aragorn', vida=20}
+
+        jugador p2 = new jugador(100, 50, "Legolas", "ID002");
+        System.out.println(p2);
     }
 }
 
